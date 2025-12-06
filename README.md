@@ -1,4 +1,4 @@
 # CECS456_DLProject
-Dataset Chosen: Chest X-Ray Images (Pneumonia)
+Dataset Chosen: Chest X-Ray Images (Pneumonia)  
 Dataset Link: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
 
