@@ -67,13 +67,9 @@ Handles dataset augmentation and preprocessing to improve generalization and mai
 ### Key Insights (from Project Report) For detailed numerical results, see 456 Report.pdf
 
 - Dataset imbalance leads to strong recall for Pneumonia but lower recall for Normal.  
-
 - ResNet50 generalizes better and produces smoother learning curves.  
-
 - Threshold tuning significantly affects precision–recall balance.  
-
 - Both models show high pneumonia sensitivity, essential in clinical settings.  
-
 - No major signs of overfitting in either model.  
 
 
