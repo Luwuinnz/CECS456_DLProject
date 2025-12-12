@@ -2,6 +2,7 @@
 Dataset Chosen: Chest X-Ray Images (Pneumonia)  
 Dataset Link: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia  
 Author: Tiffany Lin
+
 ---
 ### Replication Steps  
 1. Download formatting.py, modelA.py, modelB.py, and the chest x-ray dataset from Kaggle
@@ -14,7 +15,9 @@ Author: Tiffany Lin
 ### Purpose
 Pneumonia is a lung infection that causes inflammation of the alveoli, leading to difficulty breathing, coughing, and feverish symptoms. Its severity ranges from mild to life-threatening. However, prompt and effective diagnosis of pneumonia dramatically increases patient survival. Chest x-rays are the primary tool in diagnosing this disease, but manual interpretation is prone to human error, especially in high-volume clinical environments. Deep learning has strong potential for diagnostic accuracy and reducing costs.
 The objective of the project is to design, train, and evaluate deep learning models given a dataset. Training and evaluating by the Chest X-Rays (pneumonia) dataset, I implemented two different models: a custom CNN and a ResNet50 transfer learning model to compare the validity of my model’s performance. Performance was assessed using confusion and classification matrices, and accuracy and loss graphs.
+
 ---
+
 ### Report
 Contains dataset overview, methodology, model architecture, results, plots, and analysis. 
 [Link to Report](https://github.com/Luwuinnz/CECS456_DLProject/blob/main/456%20Report.pdf)
@@ -22,6 +25,8 @@ Contains dataset overview, methodology, model architecture, results, plots, and 
 
 ### Project Summary
 Goal: Build and compare two deep learning models to detect pneumonia using the Kaggle Chest X-Rays Dataset.
+
+---
 
 ### Models Implemented:  
 #### Custom CNN (Binary classification)
@@ -33,6 +38,7 @@ Goal: Build and compare two deep learning models to detect pneumonia using the K
 - Pretrained ImageNet weights
 - Frozen convolution layers
 - Custom classification head + dropout
+
 ---
 ### Analyzed Data Output
 - Training Curves
@@ -44,6 +50,7 @@ Goal: Build and compare two deep learning models to detect pneumonia using the K
 - Classification Reports
     - [CNN Model Classification Report](cnn_classification_report.txt)
     - [ResNet50 Model Classification Report](resnet50_classification_report.txt)
+---
 
 ### Code Files
 Implementation of the custom CNN architecture, training loop, threshold adjustments, and evaluation logic.  
@@ -54,6 +61,8 @@ Implementation of the ResNet50 transfer-learning pipeline including preprocessin
 
 Handles dataset augmentation and preprocessing to improve generalization and maintain consistency across training experiments.  
 [formatting.py](formatting.py)  
+
+---
 
 ### Key Insights (from Project Report) For detailed numerical results, see 456 Report.pdf
 
