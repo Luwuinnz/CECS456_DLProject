@@ -25,35 +25,35 @@ Contains dataset overview, methodology, model architecture, results, plots, and 
 Goal: Build and compare two deep learning models to detect pneumonia using the Kaggle Chest X-Rays Dataset.
 
 Models Implemented:  
-- Custom CNN
+### Custom CNN (Binary classification)
 - 32 → 64 → 128 convolution filters
 - Dropout 0.5
 - Binary sigmoid classifier
 
-- ResNet50 (Transfer Learning)
+### ResNet50 (Transfer Learning)
 - Pretrained ImageNet weights
 - Frozen convolution layers
 - Custom classification head + dropout
 
-📊 Training Curves
-Custom CNN Training Plots
+# Analyzed Data Output
+- Training Curves
+- Custom CNN Training Plots
 
-ResNet50 Training Plots
+- ResNet50 Training Plots
 
-🧪 Model Evaluation
-CNN Confusion Matrix
+Model Evaluation
+- CNN Confusion Matrix
+- ResNet50 Confusion Matrix
 
-ResNet50 Confusion Matrix
-
-📄 Classification Reports
-Custom CNN
+Classification Reports
+- Custom CNN
 See: cnn_classification_report.txt
 
 ResNet50 Model
 See: resnet50_classification_report.txt
 
 🛠️ Code Files
-modelA.py
+[modelA.py](modelA.py)
 
 Implementation of the custom CNN architecture, training loop, threshold adjustments, and evaluation logic.
 
