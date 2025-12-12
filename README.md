@@ -37,9 +37,8 @@ Models Implemented:
 
 # Analyzed Data Output
 - Training Curves
-- Custom CNN Training Plots
-
-- ResNet50 Training Plots
+    - Custom CNN Training Plots
+    - ResNet50 Training Plots
 
 Model Evaluation
 - CNN Confusion Matrix
@@ -52,36 +51,26 @@ See: cnn_classification_report.txt
 ResNet50 Model
 See: resnet50_classification_report.txt
 
-🛠️ Code Files
+# Code Files
+Implementation of the custom CNN architecture, training loop, threshold adjustments, and evaluation logic.
 [modelA.py](modelA.py)
 
-Implementation of the custom CNN architecture, training loop, threshold adjustments, and evaluation logic.
-
-modelB.py
-
 Implementation of the ResNet50 transfer-learning pipeline including preprocessing, callbacks, training, and evaluation.
-
-formatting.py
+[modelB.py](modelB.py)
 
 Handles dataset augmentation and preprocessing to improve generalization and maintain consistency across training experiments.
+[formatting.py](formatting.py)
 
-📝 Key Insights (from project report)
+# Key Insights (from Project Report) For detailed numerical results, see 456 Report.pdf
 
-Dataset imbalance leads to strong recall for Pneumonia but lower recall for Normal.
+- Dataset imbalance leads to strong recall for Pneumonia but lower recall for Normal.
 
-ResNet50 generalizes better and produces smoother learning curves.
+- ResNet50 generalizes better and produces smoother learning curves.
 
-Threshold tuning significantly affects precision–recall balance.
+- Threshold tuning significantly affects precision–recall balance.
 
-Both models show high pneumonia sensitivity, essential in clinical settings.
+- Both models show high pneumonia sensitivity, essential in clinical settings.
 
-No major signs of overfitting in either model.
+- No major signs of overfitting in either model.
 
-For detailed numerical results, see 456 Report.pdf. 
 
-456 Report
-
-🧑‍💻 Author
-
-Tiffany Lin
-GitHub: https://github.com/Luwuinnz/CECS456_DLProject
