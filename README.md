@@ -15,51 +15,25 @@ Pneumonia is a lung infection that causes inflammation of the alveoli, leading t
 The objective of the project is to design, train, and evaluate deep learning models given a dataset. Training and evaluating by the Chest X-Rays (pneumonia) dataset, I implemented two different models: a custom CNN and a ResNet50 transfer learning model to compare the validity of my model’s performance. Performance was assessed using confusion and classification matrices, and accuracy and loss graphs.
 
 # Report
+Contains dataset overview, methodology, model architecture, results, plots, and analysis. 
 [Link to Report](https://github.com/Luwuinnz/CECS456_DLProject/blob/main/456%20Report.pdf)
 
 
-📁 Repository Structure
-├── 456 Report.pdf
-├── README.md
-├── CNNmodelA_training_plots.png
-├── Resnet50modelB_training_plots.png
-├── cnn_classification_report.txt
-├── resnet50_classification_report.txt
-├── cnn_confusion_matrix.png
-├── resnet50_confusion_matrix.png
-├── modelA.py
-├── modelB.py
-├── formatting.py
-
-📘 Project Summary
-
-Full report available here: 456 Report.pdf
-
-Contains dataset overview, methodology, model architecture, results, plots, and analysis. 
-
+# Project Summary
 456 Report
 
-Goal
+Goal: Build and compare two deep learning models to detect pneumonia using the Kaggle Chest X-Rays Dataset.
 
-Build and compare two deep learning models to detect pneumonia using the Kaggle Chest X-Rays Dataset.
+Models Implemented:  
+- Custom CNN
+- 32 → 64 → 128 convolution filters
+- Dropout 0.5
+- Binary sigmoid classifier
 
-Models Implemented
-
-Custom CNN
-
-32 → 64 → 128 convolution filters
-
-Dropout 0.5
-
-Binary sigmoid classifier
-
-ResNet50 (Transfer Learning)
-
-Pretrained ImageNet weights
-
-Frozen convolution layers
-
-Custom classification head + dropout
+- ResNet50 (Transfer Learning)
+- Pretrained ImageNet weights
+- Frozen convolution layers
+- Custom classification head + dropout
 
 📊 Training Curves
 Custom CNN Training Plots
